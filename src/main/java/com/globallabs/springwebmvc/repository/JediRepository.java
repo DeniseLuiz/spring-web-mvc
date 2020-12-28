@@ -10,6 +10,7 @@ import java.util.List;
 public class JediRepository {
 
     private List<Jedi> jedi;
+    private Long id;
 
     public JediRepository() {
 
@@ -21,6 +22,13 @@ public class JediRepository {
 
         return this.jedi;
     }
+
+   /* public Jedi findById(this.id){
+
+        Jedi = jedi.indexOf(id);
+
+        return Jedi;
+    }*/
 
     public void add (final Jedi jedi){
         this.jedi.add(jedi);
